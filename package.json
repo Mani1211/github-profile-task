@@ -1,0 +1,46 @@
+{
+  "name": "cloudbees-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.22.20",
+    "@babel/preset-env": "7.22.20",
+    "@babel/preset-react": "7.22.15",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.5.1",
+    "@types/redux-mock-store": "1.0.3",
+    "@vitejs/plugin-react": "4.0.4",
+    "@vitest/coverage-v8": "0.34.6",
+    "@vitest/ui": "0.34.6",
+    "eslint": "8.49.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "8.0.3",
+    "lint-staged": "14.0.1",
+    "prettier": "3.0.3",
+    "vite": "4.4.9",
+    "vite-plugin-svgr": "3.2.0",
+    "vite-tsconfig-paths": "4.2.1"
+  }
+}
