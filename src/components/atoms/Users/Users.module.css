@@ -1,0 +1,27 @@
+.user--card {
+  border-bottom: 1px solid #333;
+  width: 60vw;
+  height: 45px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  padding: 8px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.user--card:hover {
+  background-color: #182230;
+  border-radius: 8px;
+}
+.metadata {
+  color: #475467;
+}
+
+.user--name {
+  color: #3081f7;
+  font-size: 20px;
+}
+
+.user--card:hover .user--name {
+  text-decoration: underline;
+}

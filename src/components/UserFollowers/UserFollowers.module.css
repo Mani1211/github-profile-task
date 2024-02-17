@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.profile {
+  flex-basis: 25%;
+  width: 25%;
+  position: relative;
+}
+
+.users--container{
+    height: 100%;
+    overflow: scroll;
+    padding: 24px 0px;
+    width: 100%;
+    padding-bottom: 100px;
+}

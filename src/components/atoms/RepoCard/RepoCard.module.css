@@ -1,0 +1,30 @@
+.repo--card {
+  border-bottom: 1px solid #333;
+  width: 60vw;
+  height: 85px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  padding: 8px 8px 0px;
+}
+.repo--card:hover {
+  background-color: #182230;
+  border-radius: 8px;
+}
+.metadata {
+  color: #475467;
+}
+
+.repo--name {
+  color: #3081f7;
+  font-size: 20px;
+}
+
+.repo--card:hover .repo--name {
+  text-decoration: underline;
+}
+
+.language--color{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
